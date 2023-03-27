@@ -42,6 +42,8 @@ header {
   margin: 10rem 0 8rem;
   font-family: var(--ff-heading);
   text-align: center;
+
+  animation: topdown 700ms;
 }
 
 header p {
@@ -64,6 +66,8 @@ header h1 {
 main {
   display: grid;
   gap: 3.2rem;
+
+  animation: downtop 700ms 350ms backwards; 
 }
 
 .card {
@@ -109,4 +113,27 @@ main {
 
   display: inline-flex;
   align-items: center;
+}
+
+/* Animation */
+@keyframes topdown {
+  0% {
+    opacity: 0;
+    transform: translateY(-15px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes downtop {
+  0% {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
