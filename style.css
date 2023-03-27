@@ -33,42 +33,6 @@ body {
   margin: 0 auto;
 }
 
-@media (min-width: 700px){
-  
-  main {
-    grid-template-columns: 1fr 1fr;
-  }
-  :root {
-    --fs-heading: 5.6rem;
-  }
-  
-  .page {
-    max-width: 117rem;
-    padding: 0 5rem;
-  }
-}
-
-@media (min-width: 930px){
-
-  main {
-    grid-template-areas: "imageA imageB imageB"
-    "imageC imageC imageD";
-  }
-
-  main div:nth-child(1){
-    grid-area: imageA;
-  }
-  main div:nth-child(2){
-    grid-area: imageB;
-  }
-  main div:nth-child(3){
-    grid-area: imageC;
-  }
-  main div:nth-child(4){
-    grid-area: imageD;
-  }
-}
-
 img {
   width: 100%;
   height: auto;
@@ -114,6 +78,7 @@ main {
 .card img {
   height: 41.6rem;
   object-fit: cover;
+  filter: brightness(0.5);
   border-radius: 6px;
 
   transition: transform 200ms;
@@ -171,5 +136,40 @@ main {
   100% {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+/* desktop version with css grid */
+@media (min-width: 700px){
+  main {
+    grid-template-columns: 1fr 1fr;
+  }
+  :root {
+    --fs-heading: 5.6rem;
+  }
+  
+  .page {
+    max-width: 117rem;
+    padding: 0 5rem;
+  }
+}
+
+@media (min-width: 930px){
+  main {
+    grid-template-areas: "imageA imageB imageB"
+    "imageC imageC imageD";
+  }
+
+  main div:nth-child(1){
+    grid-area: imageA;
+  }
+  main div:nth-child(2){
+    grid-area: imageB;
+  }
+  main div:nth-child(3){
+    grid-area: imageC;
+  }
+  main div:nth-child(4){
+    grid-area: imageD;
   }
 }
