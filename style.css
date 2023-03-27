@@ -33,6 +33,42 @@ body {
   margin: 0 auto;
 }
 
+@media (min-width: 700px){
+  
+  main {
+    grid-template-columns: 1fr 1fr;
+  }
+  :root {
+    --fs-heading: 5.6rem;
+  }
+  
+  .page {
+    max-width: 117rem;
+    padding: 0 5rem;
+  }
+}
+
+@media (min-width: 930px){
+
+  main {
+    grid-template-areas: "imageA imageB imageB"
+    "imageC imageC imageD";
+  }
+
+  main div:nth-child(1){
+    grid-area: imageA;
+  }
+  main div:nth-child(2){
+    grid-area: imageB;
+  }
+  main div:nth-child(3){
+    grid-area: imageC;
+  }
+  main div:nth-child(4){
+    grid-area: imageD;
+  }
+}
+
 img {
   width: 100%;
   height: auto;
@@ -92,7 +128,7 @@ main {
   bottom: 5.2rem;
   left: 2.8rem;
 
-  font-size: var(--fs-heading);
+  font-size: 4rem;
   font-weight: 800;
 
   display: flex;
