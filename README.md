@@ -1,21 +1,16 @@
 ## 🚀 Rockeatseat 
-<br>
+<h1>Stage 03 - Avançando no HTML e CSS</h1>
 
-# Stage 03 - Avançado no HTML e CSS
-### Apresentação do componente
-<br>
+<h3>Aula 03 - Avançando no CSS</h3>
 <p align="center">
-  <img alt="Stage 03 / Projeto 03" src="assets/figma-project-03.png" width="80%">
+  <img alt="Stage 03 / Projeto 03" src="assets/figma-project-03.png" width="60%">
 </p>
 
-### Descrição
-<p align="justify"> Nessa aula é apresentado o projeto que iremos desenvolver em aula, trabalharemos com display: grid, transições, animações e responsividade.
-</p>
+<h4>Descrição</h4>
 
-<br>
-Link do Projeto
-<p align="justify">
-  ARQUIVO DO PROJETO NO FIGMA: <a href="https://www.figma.com/file/Kz53YmZDFXSV9njHMj06Fe/Explorer-Stage-03-Projeto-03-(Copy)?node-id=203-1865&t=nS6IsW5T1PvhxCFL-0">Explorer Stage 03 Projeto 03</a>
-</p>
+<p align="justify">Nessa aula é apresentado o projeto que iremos desenvolver em aula, trabalharemos com display: grid, transições, animações e responsividade.</p>
 
+<p>Link do Projeto</p>
+
+Arquivo do Projeto no Figma: <a href="https://www.figma.com/file/7XvHCjPR3iq6cVGSICz8ZZ/Explorer-Stage-03-Projeto-03-(Copy)">Explorer / Stage 03 Projeto 03</a>
 
